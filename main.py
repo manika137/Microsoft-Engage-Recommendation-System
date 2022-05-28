@@ -105,7 +105,7 @@ def main():
     user_rating_movie = pd.DataFrame(user_rating_movie_dict)
 
     
-    logo = Image.open(r'Images\logo.png')
+    logo = Image.open(r'Images/logo.png')
     
     #CREATING WEBSITE'S MAIN NAVBAR
     with st.sidebar:
